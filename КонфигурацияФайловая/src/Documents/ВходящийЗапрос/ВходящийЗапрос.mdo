@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90b0faae-8e23-4fc4-bdec-e27dc3b43077">
+  <producedTypes>
+    <objectType typeId="86329740-d535-4bd6-94c3-4d1fdc113d06" valueTypeId="b3c12028-c15c-4653-ab6f-d187b944cf6f"/>
+    <refType typeId="78bf2656-75fa-43ba-bb20-044153e35986" valueTypeId="026b756f-3e51-4ecb-9aff-9fa122a8cc30"/>
+    <selectionType typeId="1c74995d-4e55-4ecf-8fce-cea54e6abce4" valueTypeId="44d225cc-07bc-4dab-980c-55647133f0a3"/>
+    <listType typeId="f970d966-c83e-4580-9e19-ed417f1d678a" valueTypeId="de00e6d0-7393-4d20-87cc-a49e0c516353"/>
+    <managerType typeId="eba7259c-5b41-4295-a9b0-e50250a3dec8" valueTypeId="f8dc0dc7-6b9a-442b-98f0-66407434872e"/>
+  </producedTypes>
+  <name>ВходящийЗапрос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Входящий запрос</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВходящийЗапрос.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1ad9a7b3-7f47-4323-9014-b493a9b0fa0e">
+    <name>ДатаЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата запроса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55ad8100-e072-4ded-8bab-cc1c1f4f366b">
+    <name>ТелоЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тело запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
