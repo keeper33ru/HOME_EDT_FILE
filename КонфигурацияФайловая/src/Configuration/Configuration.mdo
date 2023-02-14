@@ -40,4 +40,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <documents>Document.ВходящийЗапрос</documents>
+  <documents>Document.ИсходящийЗапрос</documents>
 </mdclass:Configuration>
