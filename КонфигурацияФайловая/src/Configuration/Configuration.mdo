@@ -41,4 +41,5 @@
   </languages>
   <documents>Document.ВходящийЗапрос</documents>
   <documents>Document.ИсходящийЗапрос</documents>
+  <informationRegisters>InformationRegister.РеестрДокументов</informationRegisters>
 </mdclass:Configuration>
