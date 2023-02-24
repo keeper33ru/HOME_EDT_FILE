@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adbd1ffd-8fde-4f8c-8e96-bf9b32864414">
+  <producedTypes>
+    <selectionType typeId="c0338819-1a7c-44bd-86d0-17906ce9c6e0" valueTypeId="a38518c7-ab67-4e0f-9c10-c9c9d4055770"/>
+    <listType typeId="f28f6e83-48d3-4953-a263-c97ea4575e84" valueTypeId="2b8257c6-84c6-4b77-a91f-87bffaef7103"/>
+    <managerType typeId="b5d05fff-0dd5-4644-a1ff-91d95254ebc1" valueTypeId="bd89223e-7523-4098-9cfe-b85878fb19f0"/>
+    <recordSetType typeId="748c7045-c4c1-4e9e-a169-d604d89141aa" valueTypeId="ce124a8a-f262-4936-8a28-86abb5b8af29"/>
+    <recordKeyType typeId="e4ee883a-14ee-4bba-965f-319c096c60d2" valueTypeId="faf298e2-8c4d-4d18-af9e-16e5df58b267"/>
+    <recordType typeId="88b781f2-050a-4e25-a82a-0486265f948f" valueTypeId="13650228-7e84-4af3-b4a8-d6d70754442c"/>
+    <recordManagerType typeId="19e313cd-2508-4748-be49-b569e5f1f4e3" valueTypeId="0ade1310-a232-48c9-90b1-e6d0cb8dce17"/>
+  </producedTypes>
+  <name>РеестрДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="8aef300a-978e-408d-a0fa-05962bf06b4a">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>DocumentRef.ВходящийЗапрос</types>
+      <types>DocumentRef.ИсходящийЗапрос</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3a71f3b5-5239-4b10-8d7d-cee10296ce4b">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
