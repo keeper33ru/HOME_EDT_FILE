@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3d96271-aa70-4264-86d0-5ad389318def">
-  <name>КонфигурацияФайловая</name>
-  <synonym>
-    <key>ru</key>
-    <value>Конфигурация файловая</value>
-  </synonym>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58970e71-4689-46b8-8e34-70acfda87c5b">
+  <name>Конфигурация</name>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="0a3f5244-5edb-4216-8193-7f856158eb5c"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2642450f-64ad-4fc2-8ae0-d2f403603d3e"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="bee6a9d1-dab4-4d36-82bc-d9072362e12a"/>
@@ -31,7 +27,7 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.20</compatibilityMode>
-  <languages uuid="780b080c-b74e-4c34-9286-d8946b68ca53">
+  <languages uuid="3a830bbc-f4b9-4448-a98f-62f449f40d9a">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
@@ -41,5 +37,6 @@
   </languages>
   <documents>Document.ВходящийЗапрос</documents>
   <documents>Document.ИсходящийЗапрос</documents>
+  <dataProcessors>DataProcessor.РаботаСHTTP</dataProcessors>
   <informationRegisters>InformationRegister.РеестрДокументов</informationRegisters>
 </mdclass:Configuration>
